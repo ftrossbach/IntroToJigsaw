@@ -1,7 +1,6 @@
 package de.codecentric.addresschecker.internal;
 
 import de.codecentric.addresschecker.api.AddressChecker;
-import de.codecentric.zipvalidator.api.ZipCodeValidatorFactory;
 import de.codecentric.zipvalidator.internal.ZipCodeValidatorImpl;
 
 /**
