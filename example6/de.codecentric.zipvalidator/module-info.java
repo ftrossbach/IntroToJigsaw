@@ -3,6 +3,6 @@ module de.codecentric.zipvalidator{
         requires public de.codecentric.zipvalidator.model;
 
 
-        requires commonslang3;
+        requires guava;
 
         }
