@@ -1,6 +1,5 @@
 module de.codecentric.zipvalidator{
-        exports de.codecentric.zipvalidator.api;
 
-
+         exports de.codecentric.zipvalidator.api;
 
         }
