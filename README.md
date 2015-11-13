@@ -8,9 +8,10 @@ This project heavily uses shell scripts that expect an environment variable name
 
 ##Two modules, OK
 This example introduces two modules - one module for an address checker with reads (depends on) a zip code validation module.
-You can compile the two modules seperately (using the `example1-compile-zipvalidator.sh` and `example1-compile-addresschecker.sh`). Compilation of the addresschecker will fail if you haven't compiled the zipvalidator first.
-You can also compile both modules at once by using `example1-compile-all.sh`.
-As the modules are well-formed, you can then run the "app" with `example1-run.sh <zip code to check>` where you pass the zip code to check as a param
+You can compile the two modules seperately (using the `compile-zipvalidator.sh` and `compile-addresschecker.sh`). Compilation of the addresschecker will fail if you haven't compiled the zipvalidator first.
+You can also compile both modules at once by using `compile-all.sh`.
+As the modules are well-formed, you can then run the "app" with `run.sh <zip code to check>` where you pass the zip code to check as a param
+You can also create modular jars and run the application from those with the provided scripts.
 
 ##Two modules, compile time error
 We try to access a class from a non-exported package of the zip code validator from the address checker. This will result in a compilation error.
