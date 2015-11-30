@@ -33,4 +33,25 @@ This example introduces a new module that the zip code validator depends on. Com
 ###Three modules, ok
 This fixes the problems from "three modules, no implied readability" by transitively exporting the new module
 
+##Examples from the second post
 
+###Three modules, exports-to ok
+This demonstrates how to restrict exports to certain modules
+
+###Three modules, exports-to fails
+This shows what happens when you try to access a type that was not exported to you
+
+###Two modules, multiple versions
+In this example, we create a new version of the zipvalidator, but keep the name and put both on the module path
+
+###Two modules, multiple versions, different module names
+In this example, we create a new version of the zipvalidator, change the module name and put both on the module path
+
+###Three modules with automatic module ok
+This example includes the usage of automatic module guava
+
+###One module with unnamed, illegal access
+Here we use a module from a non-modular class, but do not stick to module rules
+
+###One module with unnamed, ok
+Here we use a module from a non-modular class and stick to module rules
