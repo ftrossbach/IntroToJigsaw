@@ -1,3 +1,3 @@
 #!/bin/bash
 set -x #echo on
-$JAVA9_BIN/java -mp bin -m de.codecentric.addresschecker $1
+$JAVA9_BIN/java -p bin -m de.codecentric.addresschecker $1
